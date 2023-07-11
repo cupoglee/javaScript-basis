@@ -1,4 +1,4 @@
-/* let js = "amazing";
+let js = "amazing";
 console.log(22 + 13);
 console.log(23);
 let firstName = 'smruie'; //Declaring a variable
@@ -18,16 +18,16 @@ console.log(first);
  shruk=2005;
  console.log(typeof shruk);
  console.log(typeof null); 
-*/
-//let age=30;
-//age=31; //reassigning
 
-//const birthYear=1990;
+let age=30;
+age=31; //reassigning
+
+const birthYear=1990;
 // birthYear=2005; -----> const is immutable
 //const yeah; //------> this is illegal
-//var hiIAmSmruie= 'programmer';
-//hiIAmSmruie='coder';  //Never write a variable like this without actuall declaring it.
-//console.log(hiIAmSmruie); 
+var hiIAmSmruie= 'programmer';
+hiIAmSmruie='coder';  //Never write a variable like this without actuall declaring it.
+console.log(hiIAmSmruie); 
 
 //Math Operators
 const shit= 2037;
