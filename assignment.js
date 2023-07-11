@@ -13,9 +13,25 @@ let language;
 console.log(isIsland); //Uncaught SyntaxError: Identifier 'isIsland' has already been declared 
 
 //Assignment 3 - let, const and var
-language = 'Kannada';
+language = 'Hindi';
 console.log(language);
 
 //Assignment 4 - Basic Operators
+//1.
+let halfPop = population / 2;
+console.log("People living in each half would be" +" "+halfPop);
+//2.
+population++;
+console.log(population);
+//3.
+const finlandPopulation = 6000000;
+console.log(population> finlandPopulation);
+//4.
+const countryPopulation = 33000000;
+console.log(population < countryPopulation);
+
+let description = country + " is in " + continent + ", and its " + population + " people speak "+ language + ".";
+console.log(description);
+
 
 
