@@ -1,4 +1,4 @@
-let js = "amazing";
+ let js = "amazing";
 console.log(22 + 13);
 console.log(23);
 let firstName = 'smruie'; //Declaring a variable
@@ -51,7 +51,50 @@ console.log(x);
 
 //Comparison Operators
 console.log(ageSmruie > ageSarah); //boolean kind of result
-console.log(ageSmruie >= 18);
+console.log(ageSmruie >= 18); 
+
+const shit= 2037;
+const ageSmruie = shit - 2005;
+const ageSarah = shit - 1991;
+console.log(shit - 2005 >= shit - 1991);
+
+console.log(25-10-5); // to check left-to-right precedence
+let x,y;
+x=y=25-10-5; // = executes from right to left
+console.log(x, y);
+
+console.log(ageSmruie, ageSarah);
+let averageAge = (ageSmruie + ageSarah) / 2;
+console.log(averageAge);
+
+// Coding Challenge#1
+let massMark = 78 , heightMark = 1.69;
+let massJohn = 92, heightJohn = 1.95 ;
+
+const BMIMark = massMark / (heightMark * heightMark);
+const BMIJohn = massJohn / (heightJohn * heightJohn);
+
+console.log("Mark's BMI is " + BMIMark);
+console.log("John's BMI is " + BMIJohn);
+
+markHigherBMI = BMIMark > BMIJohn;
+console.log(markHigherBMI); 
+
+const myName = 'Smruie';
+const myAge = 18;
+const myJob = 'Student';
+console.log("I am " + myName + ", an " + myAge + " year old " + myJob); 
+
+// Using String and Template literals
+const newName = `My name is ${myName}, an ${myAge} year old ${myJob}.`; 
+console.log(newName);
+
+//Backticks can be used to write just regular strings without variables too.
+console.log(`Hey! Welcome to JS course.`)
+
+console.log("I want to \n\create strings \n\in multiple lines!"); // \n\ ---> new line
+
+
 
 
 
