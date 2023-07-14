@@ -1,4 +1,4 @@
- let js = "amazing";
+  let js = "amazing";
 console.log(22 + 13);
 console.log(23);
 let firstName = 'smruie'; //Declaring a variable
@@ -92,7 +92,51 @@ console.log(newName);
 //Backticks can be used to write just regular strings without variables too.
 console.log(`Hey! Welcome to JS course.`)
 
-console.log("I want to \n\create strings \n\in multiple lines!"); // \n\ ---> new line
+console.log("I want to \n\create strings \n\in multiple lines!"); // \n\ ---> new line 
+const age = 19;
+const isOldEnough = age>= 18;
+
+if(isOldEnough)
+
+    console.log('Sarah can start riding 🤣🤣');
+
+
+else
+{
+    const yearsLeft = 18 - age;
+    console.log(`Sarah shut and sit at home for another ${yearsLeft} years.`);
+}
+
+const yearOfBirth = 1991;
+if(yearOfBirth<=2000)
+{
+    console.log('your birth century is 20th century.');
+}
+else
+{
+    console.log('Your birth century is 21st century.'); //Control statement
+}
+
+//Coding Challenge #2
+if(BMIMark > BMIJohn)
+{
+    console.log("Mark's BMI is higher than John's.");
+}
+else
+{
+    console.log("John's BMI is higher than Mark's.");
+}
+
+if(BMIMark > BMIJohn)
+{
+    console.log(`Mark's BMI (${BMIMark}) is higher than John's (${BMIJohn}).`);
+}
+else
+{
+    console.log(`John's (${BMIJohn}) BMI is higher than Mark's (${BMIMark}).`);
+} 
+
+
 
 
 
