@@ -136,6 +136,24 @@ else
     console.log(`John's (${BMIJohn}) BMI is higher than Mark's (${BMIMark}).`);
 } 
 
+//type conversion
+const inputYear = '1991';
+console.log(inputYear + 81); //Plain concatenation
+console.log(Number(inputYear) + 81); //manual type conversion; now addition occurs
+
+const inputName = 'Smruie';
+console.log(Number(inputName)); //NaN error
+const pak = 18;
+console.log(String(pak)); //Manual type conversion
+
+//Type coerion aka implicit type conversion
+console.log('I am ' + 18 + 'Years old'); //Plain concatanation
+//Addition behaves as plane concatanating operator if both string and numbers are involved.
+//Subtraction operator involves actual calculation if numbers are given as string.
+
+console.log('23'-'10'-3);
+console.log('23'+'10'+3);
+
 
 
 
