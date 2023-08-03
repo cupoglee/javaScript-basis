@@ -183,6 +183,43 @@ else
 }
 
 
+const ageOfMan = 18;
+if(ageOfMan===18)
+console.log("Became an adult.");
+else
+console.log("He hasn't become an adult yet.");
+
+//Difference between == and ===
+console.log('18'==18);
+console.log('18'===18);
+
+//Important point
+const ageOfWoman = '18'; //To show how type coercion plays a role.
+if(ageOfWoman===18)
+console.log("Eligible (strict).");
+if(ageOfWoman==18)
+console.log("Eligible (loose).");
+
+const favourite = Number(prompt("What's your favourite number?")); //It basically takes a string input.
+console.log(favourite);
+console.log(typeof favourite);
+
+if(favourite == 23)
+console.log("Cool!");
+
+if(favourite === 23)
+console.log("omg broo"); 
+
+const myFavNumber = 7;
+if(myFavNumber === 5)
+console.log("IKR!");
+else if(myFavNumber === 6)
+console.log("bruhh");
+else if(myFavNumber === 7)
+console.log("AHHH");
+
+
+
 
 
 
