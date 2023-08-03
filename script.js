@@ -155,6 +155,32 @@ console.log('23'-'10'-3);
 console.log('23'+'10'+3);
 
 
+//5 falsy values - 0, undefined, '', null, NaN
+console.log(Boolean(0));
+console.log(Boolean(undefined));
+console.log(Boolean(NaN));
+console.log(Boolean(''));
+console.log(Boolean(4));
+
+const money = 1;
+if(money) //Look at this like, if money 'exists' then the first case.
+{
+    console.log("You are rich."); 
+}
+else
+{
+    console.log("You gotta look for a naukri.");
+}
+
+let height; //If height value 'exists' then he has a height.
+if(height)
+{
+    console.log("YAY! You have a height.");
+}
+else
+{
+    console.log("Your height is undefined.");
+}
 
 
 
